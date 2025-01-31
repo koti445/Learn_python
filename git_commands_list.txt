@@ -1,0 +1,79 @@
+#######git commands List########
+
+git init
+
+git add
+
+git commit -m " "
+
+git status
+
+git config
+
+###Introduction to branching
+
+git branch
+
+####creating a branch
+
+git checkout <branchname>
+
+git merge <branchname>
+
+###Deleting branch
+
+git branch -d <branchname>
+
+git branch -D <branchname>
+
+git checkout -b <branchname>
+
+###connecting local repo to remote repo
+
+git remote add origin <link to remote repo>
+
+##working with remote repos
+
+git remote
+
+
+git clone
+
+git pull origin master
+
+git push origin master
+
+#####Advanced commands
+
+git stash
+
+git stash -u
+
+git stash list
+
+git stash show
+
+git stash apply
+
+git log
+
+git revert
+
+git revert HEAD
+
+git revert --continue
+
+git revert --skip
+
+git revert --abort
+
+git config advice.merge conflict fase
+
+
+
+
+
+git rebase
+
+
+
